@@ -3,8 +3,5 @@
       ******************************************************************
        ZKPROC-MAIN.
            PERFORM ZKPROC-AUDIT.
-           PERFORM ZKPROC-TRACE.
        ZKPROC-AUDIT.
            DISPLAY 'AUDIT'.
-       ZKPROC-TRACE.
-           DISPLAY 'TRACE'.
