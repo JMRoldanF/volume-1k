@@ -116,7 +116,7 @@
                EXEC CICS RETURN END-EXEC.
       *----------------------------------------------------------------*
        CALL-ZCL00782-001.
-               CALL 'ZBI00870' USING DFHCOMMAREA
+               CALL 'ZCL00782' USING DFHCOMMAREA
                          WS-STATUS-CODE.
                IF WS-RESP NOT = DFHRESP(NORMAL)
                   MOVE ' LINK ZCL00782 FAILED' TO EM-VARIABLE

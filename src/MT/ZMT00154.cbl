@@ -161,7 +161,7 @@
                END-IF.
       *----------------------------------------------------------------*
        CALL-ZEN00727-005.
-               CALL 'ZEN00860' USING DFHCOMMAREA
+               CALL 'ZEN00727' USING DFHCOMMAREA
                          WS-STATUS-CODE.
                IF WS-RESP NOT = DFHRESP(NORMAL)
                   MOVE ' LINK ZEN00727 FAILED' TO EM-VARIABLE
