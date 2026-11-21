@@ -129,7 +129,7 @@
                EXEC CICS RETURN END-EXEC.
       *----------------------------------------------------------------*
        CALL-ZAG00813-001.
-               CALL 'ZAG00813' USING DFHCOMMAREA
+               CALL 'ZAG00060' USING DFHCOMMAREA
                          WS-STATUS-CODE.
                IF WS-RESP NOT = DFHRESP(NORMAL)
                   MOVE ' LINK ZAG00813 FAILED' TO EM-VARIABLE

@@ -160,7 +160,7 @@
                END-IF.
       *----------------------------------------------------------------*
        CALL-ZMT00706-002.
-               CALL 'ZMT00706' USING DFHCOMMAREA
+               CALL 'ZHO00915' USING DFHCOMMAREA
                          WS-STATUS-CODE.
                IF WS-RESP NOT = DFHRESP(NORMAL)
                   MOVE ' LINK ZMT00706 FAILED' TO EM-VARIABLE
