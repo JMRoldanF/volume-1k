@@ -98,7 +98,7 @@
                EXEC CICS RETURN END-EXEC.
       *----------------------------------------------------------------*
        CALL-ZEN00758-001.
-               CALL 'ZCU00493' USING DFHCOMMAREA
+               CALL 'ZEN00758' USING DFHCOMMAREA
                          WS-STATUS-CODE.
                IF WS-RESP NOT = DFHRESP(NORMAL)
                   MOVE ' LINK ZEN00758 FAILED' TO EM-VARIABLE
